@@ -12,19 +12,24 @@ permalink: /
 This guide was designed for developers with some basic understanding of request/response and knowledge of an API.
 {: .fs-6 .fw-300 }
 
-![Postman Icon](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true)
+<p align="center">
+  ![Postman Icon](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true)
+</p>
 
 ---
 
 ## Introduction
 
+
 ### What is Postman?
 
 Postman provides an API development environment for developers. It allows developers to easily create, share, test, and document APIs. As an API development environment, developers can construct and save requests, issue simple to complex responses, create collections, and switch between testing environments. The purpose of this guide is to provide developers with a good understanding of what Postman is and what this application can do.
 
+
 ### Is this guide for you?
 
 This guide was designed for developers with some basic understanding of request/response and knowledge of an API. By following a guide with detailed steps and visual aid, you will learn the basic operation of Postman. In this documentation we will go over 5 features that will provide  you with immediate benefits to you and to your team.
+
 
 ### By the end of this guide, you will be:
 
@@ -34,8 +39,10 @@ This guide was designed for developers with some basic understanding of request/
 - Creating/Running with Postman Collections
 - Testing With Postman
 
+
 ### Software Versions
 This guide was written with Postman Version 7.19.1 on the desktop application and NOT the web application. There are separate instructions for the web application of Postman. The desktop application can be used on macOS, Windows x32/x64, and Linux x64.
+
 
 ### Prerequisites
 To get the most out of this guide, you will need:
@@ -48,6 +55,7 @@ To get the most out of this guide, you will need:
 - Web browser (preferably Google Chrome)
 - Familiarity with computer functionality and overall GUI (Graphical User Interface) layouts
 
+
 ### Users should have basic understanding of:
 - CRUD or BREAD
 - URL construction
@@ -55,9 +63,12 @@ To get the most out of this guide, you will need:
 - Cookies
 - Request headers
 
+
 ### Certain styling does: 
 *Italics*: Alternatives to the instructions provided
+
 **Bold**: Headers and Steps
+
 <font color='blue'>Blue Text</font>: Represents website links
 
 **Disclaimer**: We will be using “pretty” as the default view for output. There are other options that you can choose which we will go over briefly.
