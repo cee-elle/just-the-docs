@@ -12,85 +12,71 @@ permalink: /
 This guide was designed for developers with some basic understanding of request/response and knowledge of an API.
 {: .fs-6 .fw-300 }
 
-![Test Image](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png)
+![Postman Icon](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true)
 
 ---
 
-## Getting started
+## Introduction
 
-### Dependencies
+### What is Postman?
 
-Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
+Postman provides an API development environment for developers. It allows developers to easily create, share, test, and document APIs. As an API development environment, developers can construct and save requests, issue simple to complex responses, create collections, and switch between testing environments. The purpose of this guide is to provide developers with a good understanding of what Postman is and what this application can do.
 
-### Quick start: Use as a GitHub Pages remote theme
+### Is this guide for you?
 
-1. Add Just the Docs to your Jekyll site's `_config.yml` as a [remote theme](https://blog.github.com/2017-11-29-use-any-theme-with-github-pages/)
-```yaml
-remote_theme: pmarsceill/just-the-docs
-```
-<small>You must have GitHub Pages enabled on your repo, one or more Markdown files, and a `_config.yml` file. [See an example repository](https://github.com/pmarsceill/jtd-remote)</small>
+This guide was designed for developers with some basic understanding of request/response and knowledge of an API. By following a guide with detailed steps and visual aid, you will learn the basic operation of Postman. In this documentation we will go over 5 features that will provide  you with immediate benefits to you and to your team.
 
-### Local installation: Use the gem-based theme
+### By the end of this guide, you will be:
 
-1. Install the Ruby Gem
-```bash
-$ gem install just-the-docs
-```
-```yaml
-# .. or add it to your your Jekyll site’s Gemfile
-gem "just-the-docs"
-```
-2. Add Just the Docs to your Jekyll site’s `_config.yml`
-```yaml
-theme: "just-the-docs"
-```
-3. _Optional:_ Initialize search data (creates `search-data.json`)
-```bash
-$ bundle exec just-the-docs rake search:init
-```
-3. Run you local Jekyll server
-```bash
-$ jekyll serve
-```
-```bash
-# .. or if you're using a Gemfile (bundler)
-$ bundle exec jekyll serve
-```
-4. Point your web browser to [http://localhost:4000](http://localhost:4000)
+- Composing Requests
+- Working with Requests
+- Working with Environments and Variables 
+- Creating/Running with Postman Collections
+- Testing With Postman
 
-If you're hosting your site on GitHub Pages, [set up GitHub Pages and Jekyll locally](https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll) so that you can more easily work in your development environment.
+### Software Versions
+This guide was written with Postman Version 7.19.1 on the desktop application and NOT the web application. There are separate instructions for the web application of Postman. The desktop application can be used on macOS, Windows x32/x64, and Linux x64.
 
-### Configure Just the Docs
+### Prerequisites
+To get the most out of this guide, you will need:
+- A computer installed with either:
+-- macOS 10.10 or higher
+-- Windows 8 or higher
+-- Linux
+- A keyboard and mouse or trackpad
+- Stable internet connection
+- Web browser (preferably Google Chrome)
+- Familiarity with computer functionality and overall GUI (Graphical User Interface) layouts
 
-- [See configuration options]({{ site.baseurl }}{% link docs/configuration.md %})
+### Users should have basic understanding of:
+- CRUD or BREAD
+- URL construction
+- Query parameters
+- Cookies
+- Request headers
 
----
+### Certain styling does: 
+*Italics*: Alternatives to the instructions provided
+**Bold**: Headers and Steps
+<font color='blue'>Blue Text</font>: Represents website links
 
-## About the project
+**Disclaimer**: We will be using “pretty” as the default view for output. There are other options that you can choose which we will go over briefly.
 
-Just the Docs is &copy; 2017-2019 by [Patrick Marsceill](http://patrickmarsceill.com).
 
-### License
+### How to Get Postman
 
-Just the Docs is distributed by an [MIT license](https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt).
+**Step 1)** Go to https://www.getpostman.com
 
-### Contributing
+**Step 2)** Create a Postman account:
 
-When contributing to this repository, please first discuss the change you wish to make via issue,
-email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in [our GitHub repo](https://github.com/pmarsceill/just-the-docs#contributing).
+  1. Click Sign In button at top of the navigation bar
+  2. Click the Create Account option
 
-#### Thank you to the contributors of Just the Docs!
+**Step 3)** Click the Product Tab at the top and Click Download
 
-<ul class="list-style-none">
-{% for contributor in site.github.contributors %}
-  <li class="d-inline-block mr-1">
-     <a href="{{ contributor.html_url }}"><img src="{{ contributor.avatar_url }}" width="32" height="32" alt="{{ contributor.login }}"/></a>
-  </li>
-{% endfor %}
-</ul>
+**Step 4)** Run the installer appropriate to your platform
 
-### Code of Conduct
+**Step 5)** Set up your workspace by selecting the tools you need:
 
-Just the Docs is committed to fostering a welcoming community.
+  1. Click Save My Preferences, a Startup Screen should appear
 
-[View our Code of Conduct](https://github.com/pmarsceill/just-the-docs/tree/master/CODE_OF_CONDUCT.md) on our GitHub repository.
