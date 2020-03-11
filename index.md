@@ -81,8 +81,7 @@ To get the most out of this guide, you will need:
 
 <p><font color='blue'>Blue Text</font>: Represents website links</p>
 
-    Disclaimer: We will be using “pretty” as the default view for output. 
-    There are other options that you can choose which we will go over briefly.
+> Disclaimer: We will be using “pretty” as the default view for output. There are other options that you can choose which we will go over briefly.
 
 <br>
 
