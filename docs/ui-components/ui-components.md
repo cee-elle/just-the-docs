@@ -70,11 +70,9 @@ One of the most useful features in Postman is Data Parameterization. This featur
 
 Parameters are created through the use of double curly brackets: {{sample}}. Let's create a parameterized POST request.
 
-**Step 1)**
-
-1. Set your HTTP request to POST.
-2. Input this link: https://jsonplaceholder.typicode.com/users. Replace the first part of the link with a parameter such as {{url}}. Request url should now be {{url}}/users.
-3. Click send. (There should be no response because we have not set any parameters)
+**Step 1)** Set your HTTP request to POST.
+1. Input this link: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Replace the first part of the link with a parameter such as {{url}}. Request url should now be {{url}}/users.
+2. Click send. (There should be no response because we have not set any parameters)
 
 **Step 2)** To use the parameter you need to set the environment
 
@@ -83,7 +81,7 @@ Parameters are created through the use of double curly brackets: {{sample}}. Let
 
 **Step 3)** In variable,
 
-1. SET name to the url which is https://jsonplaceholder.typicode.com
+1. SET name to the url which is [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com_)
 2. Click Save.
 
 **Step 4)** Click close if you see the next screen.
