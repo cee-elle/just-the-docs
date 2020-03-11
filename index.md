@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 nav_order: 1
-description: "This guide was designed for developers with some basic understanding of request/response and knowledge of an API."
+description: "This is a Postman guide designed for developers with some basic understanding of request/response and some knowledge of an API."
 permalink: /
 ---
 
@@ -83,7 +83,9 @@ To get the most out of this guide, you will need:
 
     Disclaimer: We will be using “pretty” as the default view for output. 
     There are other options that you can choose which we will go over briefly.
+
 <br>
+
 
 ### How to Get Postman
 
@@ -101,3 +103,4 @@ To get the most out of this guide, you will need:
 **Step 5)** Set up your workspace by selecting the tools you need:
 
 1. Click Save My Preferences, a Startup Screen should appear
+
