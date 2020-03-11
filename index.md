@@ -6,13 +6,13 @@ description: "This is a Postman guide designed for developers with some basic un
 permalink: /
 ---
 
-![Postman Icon](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true)
-
 # Introduction
 ___
 
-*This Postman guide was written by developers, for developers.*
+![Postman Icon](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true)
 
+<br>
+*This Postman guide was written by developers, for developers.*
 <br>
 
 ### What is Postman?
