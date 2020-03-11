@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Working With Environments and Variables
+title: Working With Environments & Variables
 nav_order: 4
 ---
 
-# Working with Environments and Variables
+# Working with Environments & Variables
 ---
 
 ### Understanding Variables
@@ -12,6 +12,7 @@ nav_order: 4
 
 ### Understanding Environments 
 An environment allows for collections and requests to be run against different data sets. You can have different environments meant for testing, development, and production that will need different data sets to be passed. In this application, environments are made up of key-value pairs of variables, and each variable represents its key. You may access it by referencing the variable. Let’s get started by creating your first environment.
+
 For the example below, we will be taking sampel data from this website: reqres.in. On the site, there are a list of fake GET, POST, PUT, DELETE requests that can be made. The second column shows how to mock your request, and the third column details the response code and result.
 
 Let’s start building your first environment!
