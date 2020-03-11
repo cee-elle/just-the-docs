@@ -6,25 +6,17 @@ nav_order: 99
 
 # Glossary
 ---
+This is a glossary of the terms we will be using in this guide.
+<br>
 
-**HTTP** -
-
-**URL** -
-
-**JSON** -
-
-**GET** -
-
-**POST** -
-
-**PUT** -
-
-**DELETE** -
-
-**Request** -
-
-**Response** -
-
-**Status 200+** -
-
+#### DELETE
+#### GET
+#### HTTP
+#### JSON
+#### POST
+#### PUT
+#### Request
+#### Response
+#### Status
+#### URL
 
