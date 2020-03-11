@@ -1,90 +1,44 @@
 ---
 layout: default
-title: Configuration
+title: Composing Requests
 nav_order: 2
 ---
 
-TESTING 
 
-# Configuration
-{: .no_toc }
+# Composing Requests
+One of Postman's primary purposes is allowing us to craft requests to the APIs we use. This section will guide you to making your first request with Postman! In order to make a request of the API, start by:
 
+    Note: We will be using content from https://jsonplaceholder.typicode.com/users to simulate a JSON file.
 
-Just the Docs has some specific configuration parameters that can be defined in your Jekyll site's _config.yml file.
-{: .fs-6 .fw-300 }
+**Step 1)** In Postman, click a new tab to create a new request. 
 
-## Table of contents
-{: .no_toc .text-delta }
+**Step 2)** In the new tab:
+1. Set your HTTP request to GET.
+2. Input the link in request url: https://jsonplaceholder.typicode.com/users
 
-1. TOC
-{:toc}
+**Step 3)** Next,
+Click Send.
 
----
+*Alternatively, you can click the dropdown arrow attached to the send button, and choose send and download. This will provide you with a save file of the response.*
 
+Status: 200 Created should be displayed
 
-View this site's [_config.yml](https://github.com/pmarsceill/just-the-docs/tree/master/_config.yml) file as an example.
+*You'll see a message that echoes some header values along with a message, which reads the API is listening.*
 
-## Site logo
+Posted data are showing up in the body.
 
-```yaml
-# Set a path/url to a logo that will be displayed instead of the title
-logo: "/assets/images/just-the-docs.png"
-```
+*If you receive an error instead of the expected text, verify that the sample API is running, that you've entered the correct URL, and the get method is selected.*
 
-## Search
+<br>
 
-```yaml
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
+### The response body is presented under the body tab with three views:
+**Pretty** - Applies basic formatting to content and is the default setting.
 
-# Enable support for hyphenated search words:
-search_tokenizer_separator: /[\s/]+/
+**Raw** - Displays content exactly as it was received.
 
-```
+**Preview** - Attempts to render content. Useful when you are trying to get an idea of how an HTML document appears in the browser.
 
-## Aux links
+    Note: When the response is an image or other non-text type, these options won't be available. 
 
-```yaml
-# Aux links for the upper right navigation
-aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/pmarsceill/just-the-docs"
-```
-
-## Heading anchor links
-
-```yaml
-# Heading anchor links appear on hover over h1-h6 tags in page content
-# allowing users to deep link to a particular heading on a page.
-#
-# Supports true (default) or false/nil
-heading_anchors: true
-```
-
-## Footer content
-
-```yaml
-# Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
-```
-
-## Color scheme
-
-```yaml
-# Color scheme currently only supports "dark" or nil (default)
-color_scheme: "dark"
-```
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
-
-<script type="text/javascript" src="{{ "/assets/js/dark-mode-preview.js" | absolute_url }}"></script>
-
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
-
-## Google Analytics
-
-```yaml
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-ga_tracking: UA-5555555-55
-```
+<br>
+**Congratulations**, you have made your first API request in Postman! 
