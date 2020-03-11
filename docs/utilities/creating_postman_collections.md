@@ -35,4 +35,5 @@ Collections are a group of requests saved in one folder. The requests can be GET
 **Congratulations**, you just ran your first collection! Your run results should be generated on a new window and look like the below.
 
 
+
 Run Summary Report
