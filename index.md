@@ -12,14 +12,12 @@ permalink: /
 This guide was designed for developers with some basic understanding of request/response and knowledge of an API.
 {: .fs-6 .fw-300 }
 
-<p align="center">
-  ![Postman Icon](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true)
-</p>
+![Postman Icon](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true)
 
 ---
 
 ## Introduction
-
+<br>
 
 ### What is Postman?
 
@@ -46,10 +44,10 @@ This guide was written with Postman Version 7.19.1 on the desktop application an
 
 ### Prerequisites
 To get the most out of this guide, you will need:
-- A computer installed with either:
--- macOS 10.10 or higher
--- Windows 8 or higher
--- Linux
+- A computer installed with either:<br>
+    - macOS 10.10 or higher
+    - Windows 8 or higher
+    - Linux
 - A keyboard and mouse or trackpad
 - Stable internet connection
 - Web browser (preferably Google Chrome)
@@ -57,7 +55,7 @@ To get the most out of this guide, you will need:
 
 
 ### Users should have basic understanding of:
-- CRUD or BREAD
+- **CRUD** or **BREAD**
 - URL construction
 - Query parameters
 - Cookies
@@ -71,7 +69,7 @@ To get the most out of this guide, you will need:
 
 <font color='blue'>Blue Text</font>: Represents website links
 
-**Disclaimer**: We will be using “pretty” as the default view for output. There are other options that you can choose which we will go over briefly.
+> **Disclaimer**: We will be using “pretty” as the default view for output. There are other options that you can choose which we will go over briefly.
 
 
 ### How to Get Postman
@@ -80,8 +78,8 @@ To get the most out of this guide, you will need:
 
 **Step 2)** Create a Postman account:
 
-  1. Click Sign In button at top of the navigation bar
-  2. Click the Create Account option
+        1. Click Sign In button at top of the navigation bar
+        2. Click the Create Account option
 
 **Step 3)** Click the Product Tab at the top and Click Download
 
@@ -89,5 +87,5 @@ To get the most out of this guide, you will need:
 
 **Step 5)** Set up your workspace by selecting the tools you need:
 
-  1. Click Save My Preferences, a Startup Screen should appear
+        1. Click Save My Preferences, a Startup Screen should appear
 
