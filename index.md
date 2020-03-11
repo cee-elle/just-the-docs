@@ -6,17 +6,13 @@ description: "This is a Postman guide designed for developers with some basic un
 permalink: /
 ---
 
-# Postman Documentation
-{: .fs-9 }
-
-This guide was designed for developers with some basic understanding of request/response and knowledge of an API.
-{: .fs-6 .fw-300 }
-
 ![Postman Icon](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true)
 
----
+# Introduction
+___
 
-## Introduction
+*This Postman guide was written by developers, for developers.*
+
 <br>
 
 ### What is Postman?
@@ -102,4 +98,3 @@ To get the most out of this guide, you will need:
 **Step 5)** Set up your workspace by selecting the tools you need:
 
 1. Click Save My Preferences, a Startup Screen should appear
-
