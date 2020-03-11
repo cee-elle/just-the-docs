@@ -2,8 +2,6 @@
 layout: default
 title: Working With Requests
 nav_order: 3
-has_children: true
-permalink: /docs/ui-components
 ---
 
 # Working With Requests
@@ -14,7 +12,7 @@ POST requests work differently than GET requests from the user adding data to th
 
 **Step 2)** In this new tab:
 1. Set your HTTP request to POST.
-2. Input the link in request url: https://jsonplaceholder.typicode.com/users
+2. Input the link in request url: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 3. Switch to the Body tab.
 
 **Step 3)** In the Body:
@@ -25,6 +23,7 @@ POST requests work differently than GET requests from the user adding data to th
 
 1. A user result from the previous GET request. Make sure the code is copied correctly, you will notice paired curly braces and brackets.
 2. Change the ID to 11 and to “Your Name”.
+
 <br>
 
 **Code snippet:**
@@ -53,6 +52,7 @@ POST requests work differently than GET requests from the user adding data to th
     }
   }
 ```
+<br>
  
 **Step 5)** Next:
 1. Click Send.
@@ -60,6 +60,8 @@ POST requests work differently than GET requests from the user adding data to th
 3. Data should now show up in the body.
 
 > Note: Post request should have the correct format to ensure that requested data will be created.
+
+<br>
 
 **How to Parameterize Requests**
 
