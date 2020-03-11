@@ -8,7 +8,9 @@ nav_order: 2
 # Composing Requests
 One of Postman's primary purposes is allowing us to craft requests to the APIs we use. This section will guide you to making your first request with Postman! In order to make a request of the API, start by:
 
-    Note: We will be using content from https://jsonplaceholder.typicode.com/users to simulate a JSON file.
+> Note: We will be using content from [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) to simulate a JSON file.
+
+<br>
 
 **Step 1)** In Postman, click a new tab to create a new request. 
 
@@ -38,7 +40,7 @@ Posted data are showing up in the body.
 
 **Preview** - Attempts to render content. Useful when you are trying to get an idea of how an HTML document appears in the browser.
 
-    Note: When the response is an image or other non-text type, these options won't be available. 
+> Note: When the response is an image or other non-text type, these options won't be available. 
 
 <br>
 **Congratulations**, you have made your first API request in Postman! 
