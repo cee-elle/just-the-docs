@@ -5,8 +5,10 @@ nav_order: 3
 ---
 
 # Working With Requests
+---
 
 POST requests work differently than GET requests from the user adding data to the endpoints through data manipulation. We will be handling POST requests in this section of the guide. Using the same data set from the previous section, we will begin with adding a new user.
+<br>
 
 **Step 1)** Click a new tab to create a new request.
 
