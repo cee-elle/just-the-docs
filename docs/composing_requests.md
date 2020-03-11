@@ -44,4 +44,5 @@ Posted data are showing up in the body.
 > Note: When the response is an image or other non-text type, these options won't be available. 
 
 <br>
+
 **Congratulations**, you have made your first API request in Postman! 
