@@ -12,14 +12,20 @@ POST requests work differently than GET requests from the user adding data to th
 
 **Step 1)** Click a new tab to create a new request.
 
+![New Request](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-1.png)
+
 **Step 2)** In this new tab:
 1. Set your HTTP request to POST.
 2. Input the link in request url: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 3. Switch to the Body tab.
 
+![POST Request](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-2.png)
+
 **Step 3)** In the Body:
 1. Click raw.
 2. Select JSON.
+
+![RAW JSON](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-3.png)
 
 **Step 4)** Copy and paste:
 
@@ -61,6 +67,8 @@ POST requests work differently than GET requests from the user adding data to th
 2. “Status: 201 Created” should now be displayed
 3. Data should now show up in the body.
 
+![Body](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-4.png)
+
 > Note: Post request should have the correct format to ensure that requested data will be created.
 
 <br>
@@ -76,18 +84,26 @@ Parameters are created through the use of double curly brackets: {{sample}}. Let
 1. Input this link: [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users). Replace the first part of the link with a parameter such as {{url}}. Request url should now be {{url}}/users.
 2. Click send. (There should be no response because we have not set any parameters)
 
+![No Response](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-5.png)
+
 **Step 2)** To use the parameter you need to set the environment
 
 1. Click the eye icon.
 2. Click edit to set the variable to a global environment.
+
+![Global](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-6.png)
 
 **Step 3)** In variable,
 
 1. SET name to the url which is [https://jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com_)
 2. Click Save.
 
+![Save](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-7.png)
+
 **Step 4)** Click close if you see the next screen.
 
 **Step 5)** Go back to your POST request then click send. The results from your request should now populate.
 
 > Note: To avoid errors, remember to set your parameters to that they have a source like an environment variable or data file.
+
+![Errors](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-8.png)
