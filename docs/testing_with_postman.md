@@ -7,7 +7,7 @@ nav_order: 7
 # Testing With Postman
 ---
 
-Postman Tests are a set of JavaScript codes embedded into the requests that help you verify results of your tests successful or failed status. You can compare results with your previous testing and usually starts with a pm.test. 
+Postman Tests are a set of JavaScript codes embedded into the requests that help you verify results of your tests successful or failed status. You can compare results with your previous testing and usually start with a pm.test. 
 
 Let's create some basic tests for our parameterized requests from the “Working with Requests” section.
 
@@ -17,6 +17,8 @@ Let's create some basic tests for our parameterized requests from the “Working
 
 **Step 2)** Click Send. The test result should now be displayed.
 
+![Send Test](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/testing1.png)
+
 **Step 3)** Go back to the test tab and let's add another test. 
 1. This time we will compare the expected result to the actual result. 
 
@@ -25,11 +27,15 @@ Let's create some basic tests for our parameterized requests from the “Working
 2. From the snippets section, click on "Response body:JSON value check".
 
 **Step 4)** Checking your results.
-1. Replace "Your Test Name" from the code with "Check if user with id1 is Your Name".
-2. Replace jsonData.value with jsonData[0].name. 
+1. Replace "Your Test Name" from the code with "Check if the user with id1 is Your Name".
+2. Replace jsonData.value with jsonData[0].name.
+
 *To get the path, check the body in POST result from earlier. If you want to get the second result, use jsonData[1] and so on for incremental results.*
+
 3. Locate in “to.eql(“_________”);”, input “Your Name”.
 
 **Step 5)** Click send. There should now be two passed test results for your request.
 
 > Note: Different kinds of tests can be created in Postman. Explore the tool and see which tests fit your needs.
+
+![Send Test](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/testing2.png)
