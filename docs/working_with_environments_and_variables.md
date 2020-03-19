@@ -33,9 +33,7 @@ Let’s start building your first environment!
 
 **Step 6)** Name this environment ‘Stage’ and complete the row as ‘page’ for variable and ‘2’ for the initial and current value.
 
-**Step 7)** Change the 2 of the url to a new endpoint called {{page}}. Notice how the previous key value has now changed to page and {{page}}. If you hover over the endpoint variable, an error will appear.
-
-> Note: An error was caused because in this environment there is no numbered value given for this variable, therefore the request is not valid. The page requires a variable.
+**Step 7)** 
 
 **Step 8)** Change the environment to the previously created ‘Stage’ completed in Step 6. 
 
