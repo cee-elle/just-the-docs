@@ -57,4 +57,4 @@ One of Postman's primary purposes is allowing us to craft requests to the APIs w
 
 ![Preview Body](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/Creating_Requests-9.png)
 
-**Congratulations**, you have made your first API request in Postman! 
+**Congratulations**, you created your first API request in Postman! 
