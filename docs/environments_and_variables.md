@@ -8,45 +8,59 @@ nav_order: 4
 ---
 
 ### Understanding Variables
- A variable can be used as a reference tool and be defined with a specific value that a user sets. This tool can be useful when the variable exists in different places and may be changed at one place. Thus user requests are more efficient and readable. 
+A variable can be used as a reference tool and be defined with a specific value that a user sets. This tool can be useful when the variable exists in different places and may be changed at one place through the usage of a global variable. Therefore, this allows user changes to be more efficient and readable. 
 
 ### Understanding Environments 
 An environment allows for collections and requests to be run against different data sets. You can have different environments meant for testing, development, and production that will need different data sets to be passed. In this application, environments are made up of key-value pairs of variables, and each variable represents its key. You may access it by referencing the variable. Let’s get started by creating your first environment.
 
-For the example below, we will be taking sampel data from this website: reqres.in. On the site, there are a list of fake GET, POST, PUT, DELETE requests that can be made. The second column shows how to mock your request, and the third column details the response code and result.
+For the example below, we will be taking sampel data from this website: https://reqres.in. On the site, there are a list of fake GET, POST, PUT, DELETE requests that can be made. The second column shows how to mock your request, and the third column details the response code and result.
+
 
 Let’s start building your first environment!
 
-**Step 1)** Click on the ‘+’ button in the top left corner. A pop-up screen will appear and you can click on ‘Environment’ to add a new environment to Postman.
+**Step 1)** Create a new GET request from https://reqres.in/api/users?page=2 for a user list.
 
-**Step 2)** Add a new environment by giving a new name. We have called this new environment “QA”.
+
+**Step 2)** Submit both GET requests to ensure you are receiving a status 200.
  
-**Step 3)** Click add to go on to the next screen and the new environment should appear.
-Note* Click on the breadcrumbs to delete or remove the environment list.
+**Step 3)** Under Params, enter a key and value pair. The key being page and value is 2. The key is a variable placement holder and the value gives it a replacement value.
 
-**Step 4)** Click the blue ‘save’ to save the GET repost to the newly created environment and a new window will appear. Click ‘X’ on to close the window.
+**Step 4)** Create a new environment by clicking on the ‘+’ tab or by the wrench icon next to the eye icon on the top right corner. In this example, the wrench was used. A new window will pop called ‘Manage Environments’. 
 
-**Step 5)** Create a new request and save it under the POST collection. If you are not sure what collections are, please refer to the previous section on collections. For this example, we have saved this request as “User Registration”.
+**Step 5)** Click add to go on to the next screen and the blank form should appear.
 
-> Note: On the left side panel, you can see how the collections are being saved and which environment or collection each request belongs to.
+> Note: Click on the breadcrumbs to delete or remove the environment list.
 
-**Step 6)** Add the link provided at the start of the section and change the request to POST.
+**Step 6)** Name this environment ‘Stage’ and complete the row as ‘page’ for variable and ‘2’ for the initial and current value.
 
-**Step 7)** Change to the body tab located beneath the url. Add in the object (insert code snippet) which includes two key-value pairs: email and password.
+**Step 7)** Change the 2 of the url to a new endpoint called {{page}}. Notice how the previous key value has now changed to page and {{page}}. If you hover over the endpoint variable, an error will appear.
 
-**Step 8)** Click the blue ‘Send’ button. Now it returns an error response of ‘400 Bad Response’. Luckily, the error message is able to give us a hint to what is causing the error.
+> Note: An error was caused because in this environment there is no numbered value given for this variable, therefore the request is not valid. The page requires a variable.
 
-> Note: Error was caused due to the formatting of the text. When the post response is sent, it cannot read the content in plain text.
+**Step 8)** Change the environment to the previously created ‘Stage’ completed in Step 6. 
 
-**Step 9)** Go to the ‘Headers’ tab located next to body, and add a new key-value pair of ‘Content-Type’ and ‘application/json’, respectively. 
+**Step 9)** Hover of the endpoint again and now it should be green and present the a number value. 
 
-**Step 10)** Click send again and the status code should be 200.
+> Note: The error has now resolved as a variable has been set.
 
-**Step 11)** Go back to manage environments and enter the following the following and click update:
+> Note: If you click on the eye icon,  you can see the same details.
 
-(insert markdown table)
+**Step 10)** Create a copy of the Stage environment put going to wrench icon again. Click on the breadcrumb icon and to create the copy. 
 
-variables: endpoint, username, and password
-Initial Value: /api/register, sidney@fife, pistol
+**Step 11)** Click on the Stage Copy in order to modify the environment.
 
-**Step 12)** Replace all initial values to their respective variables by adding {{variable}}.
+**Step 12)** Rename the environment to ‘Production’ and change the initial and current value to 3. 
+
+**Step 13)** Click update.
+
+**Step 14)** Click on Globals at the bottom of the screen. Here we will make a new variable endpoint that will be accessible globally (available in any environment).
+
+**Step 15)** Set the variable to URL and the initial and current value to “https://reqres.in”. 
+
+**Step 16)** Change the url to the new endpoint called {{URL}}.
+
+**Step 17)** Change the environment to Production and click send. You should see the body change below.
+
+Congratulations, you have now created not only one environment, but two!
+Environments can be useful when you need to use different variables in different environments to change. 
+
