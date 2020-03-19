@@ -36,7 +36,7 @@ Let’s start building your first environment!
 
 ![KeyValue](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/enviro-B.png)
 
-**Step 7)** Change the 2 of the url to a new endpoint called <font color="maroon">({{page}})</font>. Notice how the previous key value has now changed to page and <font color="maroon">({{page}})</font>. If you hover over the endpoint variable, an error will appear.
+**Step 7)** Change the 2 of the url to a new endpoint called <font color="maroon">{page}</font>. Notice how the previous key value has now changed to page and <font color="maroon">{page}</font>. If you hover over the endpoint variable, an error will appear.
 
 > Note: An error was caused because in this environment there is no numbered value given for this variable, therefore the request is not valid. The page requires a variable.
 
