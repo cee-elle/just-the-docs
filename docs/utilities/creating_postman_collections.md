@@ -40,13 +40,18 @@ Collections are a group of requests saved in one folder. The requests can be GET
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-7.png)
 
-**Step 5)** Click on the breadcrumbs on the left-side panel in the Testing tab and select view more actions to add a new sub-folder called ‘GET’. Place the two previously created GET requests into that new folder.
+**Step 5)** Click on the breadcrumbs on the left-side panel in the **Testing** tab.
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-8a.png)
 
+1. Select view more actions to add a new sub-folder called ‘GET’.
+
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-8b.png)
 
+2. Place the two previously created GET requests into that new folder.
+
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-8c.png)
+
 
 **Step 6)** Click on the arrow button above the bread crumbs and a new sub-window will appear to the right.
 
