@@ -6,7 +6,7 @@ nav_order: 5
 
 # Creating Postman Collections
 ---
-Collections in Postman are a compiled series of requests within a specific environment. This tool is most useful for API testing and the requests are done one after another.
+Collections in Postman are a compiled series of requests within a specific environment. This tool is most useful for API testing. THe collection is a group of requests that are made execute one after another.
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-1.png)
 
@@ -17,7 +17,7 @@ When you click on the Runner button, it should load up a new screen which looks 
 ## How To Create A Postman Collection
 Collections are a group of requests saved in one folder. The requests can be GET, POST, PUT, or DELETE.
 
-> Note: We will be using reqres.in as the sample REST API. There are many types of fake requests you may use to run the sample collection.
+> Note: We will be using https://reqres.in as the sample REST API. There are many types of fake requests you may use to run the sample collection.
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-3.png)
 
@@ -68,3 +68,5 @@ Collections are a group of requests saved in one folder. The requests can be GET
 Run Summary Report
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-12.png)
+
+Now that you have built your first collection, you will be able to test how your requests work together. The Run Summary Report will provide the amount iterations and error reports. 
