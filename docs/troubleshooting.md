@@ -37,9 +37,9 @@ In order to fix this, you will have to go to your settings tab and turn off the 
 If you would like access to your archived files, you may go to “https://go.postman.co/usage/archive” where you will receive a JSON file. Another option is to export it from your application. 
 
 #### How to export and import your archived files:
-**Step 1)** Create a new Workspace to import the restored Collections
-**Step 1)** Go to Settings tab or click on the wrench at the top right corner and under Data, click to download the file.
-**Step 1)** Go to Settings again and this time choose the file to open this time.
+    **Step 1)** Create a new Workspace to import the restored Collections
+    **Step 2)** Go to Settings tab or click on the wrench at the top right corner and under Data, click to download the file.
+    **Step 3)** Go to Settings again and this time choose the file to open this time.
 
 ### Incorrect URLs or Undefined Variables
 
