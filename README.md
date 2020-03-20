@@ -61,7 +61,7 @@ The guide is written with the reader in mind. Steps were removed or condensed to
 
 ## Additional Features
 
-This guide integrates images with highlights to help guide the reader through each step. The screenshots were taken the guide was written, going through each section step by step in the application.
+This guide integrates images with highlights to help guide the reader through each step. The screenshots were taken as the guide was written, going through each section step by step in the application. This provided insight on how the reader would use the guide and the steps they should take.
  
 ## Collaborations
 
