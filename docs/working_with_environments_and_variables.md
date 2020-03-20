@@ -84,4 +84,4 @@ Let’s start building your first environment!
 
 **Congratulations**, you have now created not only one environment, but two!
 
-> Note: Environments can be useful when you need to use different variables in different environments to change. 
+Now that you have created some environments, you can run same collections in different environments to verify your reslts. Each environment should present different values in order to test your requests. You should have some basic understandings how global and environment variables are used.
