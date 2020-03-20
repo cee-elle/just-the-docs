@@ -1,68 +1,52 @@
-<p align="right">
-    <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions"><img src="https://github.com/pmarsceill/just-the-docs/workflows/CI/badge.svg" alt="Build status"></a>
-</p>
 <br><br>
 <p align="center">
-    <h1 align="center">Just the Docs</h1>
-    <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://pmarsceill.github.io/just-the-docs/">See it in action!</a></strong></p>
-    <br><br><br>
+    <h1 align="center">Postman Documentation</h1>
+    <h3 align="center">This Postman guide was written by developers, for developers.</h3>
+    <p align="center">By: Cindy | Jeffrey</p>
+    <p align="center"><strong><a href="https://cee-elle.github.io/postman-documentation/">Start Reading Documentation</a></strong></p>
+    <br>
 </p>
 
-![jtd](https://user-images.githubusercontent.com/896475/47384541-89053c80-d6d5-11e8-98dc-dba16e192de9.gif)
+<p align="center">
+<img src="https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true")>
+</p>
 
 ## Installation
+___
 
-Add this line to your Jekyll site's Gemfile:
+> Step 1: Go to the [Postman](https://www.getpostman.com) website
 
-```ruby
-gem "just-the-docs"
-```
+> Step 2: Create a Postman account:
+> 1. Click Sign In button at top of the navigation bar
+> 2. Click the Create Account option
 
-And add this line to your Jekyll site's `_config.yml`:
+> Step 3: Click Download on the homepage
 
-```yaml
-theme: just-the-docs
-```
+> Step 4: Run the installer appropriate to your platform
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install just-the-docs
+> Step 5: Set up your workspace by selecting the tools you need:
+> 1. Click Save My Preferences, a Startup Screen will appear
 
 ## Usage
+___
 
-[View the documentation](https://pmarsceill.github.io/just-the-docs/) for usage information.
+[View the documentation](https://cee-elle.github.io/postman-documentation/) for usage information.
 
-## Contributing
+## Software Versions
+___
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/pmarsceill/just-the-docs. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+This guide was written with Postman Version 7.19.1 on the desktop application and NOT the web application. There are separate instructions for the web application of Postman. The desktop application can be used on macOS, Windows x32/x64, and Linux x64.
 
-### Submitting code changes:
+## Prerequisites
+___
 
-- Open a [Pull Request](https://github.com/pmarsceill/just-the-docs/pulls)
-- Ensure all CI tests pass
-- Await code review
-- Bump the version number in `just-the-docs.gemspec` and `package.json` according to [semantic versioning](https://semver.org/).
+To get the most out of this guide, you will need:
 
-### Design and development principles of this theme:
-
-1. As few dependencies as possible
-2. No build script needed
-3. First class mobile experience
-4. Make the content shine
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is set up just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When the theme is released, only the files in `_layouts`, `_includes`, and `_sass` tracked with Git will be released.
-
-## License
-
-The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+- A computer installed with either:<br>
+  - macOS 10.10 or higher
+  - Windows 8 or higher
+  - Linux
+- A keyboard and mouse or trackpad
+- Stable internet connection
+- Web browser (preferably Google Chrome)
+- Familiarity with computer functionality and overall GUI (Graphical User Interface) layouts
