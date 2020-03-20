@@ -6,16 +6,7 @@ nav_order: 5
 
 # Creating Postman Collections
 ---
-Collections in Postman are a compiled series of requests within a specific environment. This tool is most useful for API testing. THe collection is a group of requests that are made execute one after another.
-
-![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-1.png)
-
-When you click on the Runner button, it should load up a new screen which looks like this:
-
-![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-2.png)
-
-## How To Create A Postman Collection
-Collections are a group of requests saved in one folder. The requests can be GET, POST, PUT, or DELETE.
+Collections in Postman are a compiled series of requests within a specific environment. This tool is most useful for API testing. It is also a group of requests saved in one folder and made to execute one after another. The requests can be GET, POST, PUT, or DELETE.
 
 > Note: We will be using https://reqres.in as the sample REST API. There are many types of fake requests you may use to run the sample collection.
 
@@ -57,9 +48,17 @@ Collections are a group of requests saved in one folder. The requests can be GET
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-9.png)
 
-**Step 7)** Click the blue ‘Run’ button and a new window appears called “Collection Runner”. Here you can run the test as many times as you want. We will run this collection twice. To do this, you will have to change the iterations to two. Finally click ‘Run Testing’.
+**Step 7)** Click the blue ‘Run’ button and a new window appears called “Collection Runner”. Here you can run the test as many times as you want. We will run this collection twice. To do this, you will have to change the iterations to two. 
+
+![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-2.png)
+
+
+**Step 8)** Click ‘Run Testing’.
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-10.png)
+
+
+
 
 **Congratulations**, you just ran your first collection! Your run results should be generated on a new window and look like the below.
 
