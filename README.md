@@ -1,7 +1,7 @@
 <br><br>
 <p align="center">
     <h1 align="center">Postman Documentation</h1>
-    <h3 align="center">This Postman guide was written by developers, for developers.</h3>
+    <h4 align="center">This Postman guide was written by developers, for developers.</h3>
     <p align="center">By: Cindy | Jeffrey</p>
     <p align="center"><strong><a href="https://cee-elle.github.io/postman-documentation/">Start Reading Documentation</a></strong></p>
     <br>
@@ -12,7 +12,6 @@
 </p>
 
 ## Installation
-___
 
 > Step 1: Go to the [Postman](https://www.getpostman.com) website
 
@@ -28,17 +27,14 @@ ___
 > 1. Click Save My Preferences, a Startup Screen will appear
 
 ## Usage
-___
 
 [View the documentation](https://cee-elle.github.io/postman-documentation/) for usage information.
 
 ## Software Versions
-___
 
 This guide was written with Postman Version 7.19.1 on the desktop application and NOT the web application. There are separate instructions for the web application of Postman. The desktop application can be used on macOS, Windows x32/x64, and Linux x64.
 
 ## Prerequisites
-___
 
 To get the most out of this guide, you will need:
 
