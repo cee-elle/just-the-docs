@@ -57,7 +57,7 @@ This Postman Documentation guide is written based on the "Digital Ocean" style g
 
 ## Web Based Writing
 
-The guide was written with the reader in mind. Steps were removed or condensed to enhance the flow and create a document that is easy to understand. Heading sizes was carefully considered to provide readers with the ability to scan the document and effortlessy locate sections. The purpose of this was to inform and help readers understand what Postman is.
+The guide is written with the reader in mind. Steps were removed or condensed to enhance the flow and create a document that is easy to understand. Heading sizes was carefully considered to provide readers with the ability to scan the document and effortlessy locate sections. The purpose of this was to inform and help readers understand what Postman is.
 
 ## Additional Features
 
@@ -71,4 +71,6 @@ We met face to face to collaborate ideas and communicated through [Slack](https:
 
 This guide was initially written in [Google Docs](https://www.google.ca/docs/about/) and then converted into markdown through [VSCode](https://code.visualstudio.com/) with an extension called "[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)". This extension gives you a side-by-side view of the markdown code and the page. 
 
+## Themes
 
+This guide uses the Jeckyll Theme "[just-the-docs](https://github.com/pmarsceill/just-the-docs)" on GitHub pages.
