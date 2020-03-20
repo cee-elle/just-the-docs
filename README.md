@@ -50,3 +50,25 @@ To get the most out of this guide, you will need:
 - Stable internet connection
 - Web browser (preferably Google Chrome)
 - Familiarity with computer functionality and overall GUI (Graphical User Interface) layouts
+ 
+## Style Guides
+
+This Postman Documentation guide is written based on the "Digital Ocean" style guide. The voice and tone used is friendly and informative. This is written with an humanized and active voice. The guide has little jargon and no fluff or fillers between headers. The focus is to deliver an informative and helpful guide without making it boring.
+
+## Web Based Writing
+
+The guide was written with the reader in mind. Steps were removed or condensed to enhance the flow and create a document that is easy to understand. Heading sizes was carefully considered to provide readers with the ability to scan the document and effortlessy locate sections. The purpose of this was to inform and help readers understand what Postman is.
+
+## Additional Features
+
+This guide integrates images with highlights to help guide the reader through each step. The screenshots were taken the guide was written, going through each section step by step in the application.
+ 
+## Collaborations
+
+We met face to face to collaborate ideas and communicated through [Slack](https://slack.com/intl/en-ca/). This made collaborations easier with a flexible and dynamic environment.
+
+## Tools Used
+
+This guide was initially written in [Google Docs](https://www.google.ca/docs/about/) and then converted into markdown through [VSCode](https://code.visualstudio.com/) with an extension called "[Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)". This extension gives you a side-by-side view of the markdown code and the page. 
+
+
