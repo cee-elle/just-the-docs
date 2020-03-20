@@ -14,7 +14,7 @@ If you see the window appear when trying to load up the application, please dele
 
 ![](https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/troubleshoot-1.png)
 
->* Note: By deleting your local files, all local saved files will be permanently deleted. If you have a Postman account, ensure your account is actively synced when logging into the web application.
+> Note: By deleting your local files, all local saved files will be permanently deleted. If you have a Postman account, ensure your account is actively synced when logging into the web application.
 
 ```
 “Could not get any response” Error
