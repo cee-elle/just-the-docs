@@ -10,7 +10,7 @@ Collections in Postman are a compiled series of requests within a specific envir
 
 > Note: We will be using https://reqres.in as the sample REST API. There are many types of fake requests you may use to run the sample collection.
 
-![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-3.png | width=50%)
+![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-3.png)
 
 **Step 1)** Create a new collection folder called ‘Testing’ by clicking the top left orange ‘+’ button and save.
 
