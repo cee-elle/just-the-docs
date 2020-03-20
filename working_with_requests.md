@@ -107,3 +107,5 @@ Parameters are created through the use of double curly brackets: {{sample}}. Let
 > Note: To avoid errors, remember to set your parameters to that they have a source like an environment variable or data file.
 
 ![Errors](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-8.png)
+
+**Congratulations**, you just created a POST request in Postman! In addition to the previous [section](https://cee-elle.github.io/postman-documentation/docs/composing_requests/), you should now have a good understanding of creating GET and POST reqeusts using Postman! Give a hand to yourself.
