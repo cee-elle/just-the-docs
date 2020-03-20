@@ -11,6 +11,7 @@
 <p align="center">
 <img src="https://github.com/cee-elle/postman-documentation/blob/gh-pages/docs/raw/postmanicon.png?raw=true")>
 </p>
+<br><br>
 
 ## Installation
 
