@@ -12,7 +12,7 @@ nav_order: 8
 
 If you see the window appear when trying to load up the application, please delete your postman application and its local files and reinstall the latest version. 
 
-![troubleshoot](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/troubleshoot-1.png)
+<img src="https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/troubleshoot-1.png" width=60% alt="troubleshooting">
 
 > <mark>Note:</mark> By deleting your local files, all local saved files will be permanently deleted. If you have a Postman account, ensure your account is actively synced when logging into the web application.
 
