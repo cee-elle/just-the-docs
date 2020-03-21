@@ -27,12 +27,12 @@ Let's create some basic tests for our parameterized requests from the “Working
 2. From the snippets section, click on "Response body:JSON value check".
 
 **Step 4)** Checking your results.
-1. Replace "Your Test Name" from the code with "Check if the user with id1 is Your Name".
-2. Replace jsonData.value with jsonData[0].name.
+  1. Replace "Your Test Name" from the code with "Check if the user with id1 is Your Name".
+  2. Replace jsonData.value with jsonData[0].name.
 
 *To get the path, check the body in POST result from earlier. If you want to get the second result, use jsonData[1] and so on for incremental results.*
 
-3. Locate in “to.eql(“_________”);”, input “Your Name”.
+  3. Locate in “to.eql(“_________”);”, input “Your Name”.
 
 **Step 5)** Click send. There should now be two passed test results for your request.
 
