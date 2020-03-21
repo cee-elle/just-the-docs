@@ -68,4 +68,4 @@ Run Summary Report
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-12.png)
 
-Now that you have built your first collection, you will be able to test how your requests work together. The Run Summary Report will provide the amount iterations and error reports. 
+Now that you have built your first collection, you will be able to test mulitiple requests. You can also create different sets of collections to test within the same or different environment. 
