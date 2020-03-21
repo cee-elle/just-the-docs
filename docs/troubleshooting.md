@@ -12,7 +12,7 @@ nav_order: 8
 
 If you see the window appear when trying to load up the application, please delete your postman application and its local files and reinstall the latest version. 
 
-![troubleshoot](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/troubleshoot-1.png")
+![troubleshoot](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/troubleshoot-1.png)
 
 > <mark>Note:</mark> By deleting your local files, all local saved files will be permanently deleted. If you have a Postman account, ensure your account is actively synced when logging into the web application.
 
@@ -56,4 +56,4 @@ Ensure that your variables in either or both your global or environmental settin
 If you are running to protocol errors, recheck if your urls are starting with "https://" instead of "http://" or the other way around.
 
 
-If you would like to see more of the ones highlighted here, please refer to [Troubleshooting API Requests] (https://learning.postman.com/docs/postman/sending-api-requests/troubleshooting-api-requests/).
+If you would like to see more of the ones highlighted here, please refer to [Troubleshooting API Requests](https://learning.postman.com/docs/postman/sending-api-requests/troubleshooting-api-requests/).
