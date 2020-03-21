@@ -69,7 +69,7 @@ POST requests work differently than GET requests from the user adding data to th
 
 ![Body](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-4.png)
 
-> Note: Post request should have the correct format to ensure that requested data will be created.
+> <mark>Note:</mark> Post request should have the correct format to ensure that requested data will be created.
 
 <br>
 
@@ -104,7 +104,7 @@ Parameters are created through the use of double curly brackets: {{sample}}. Let
 
 **Step 5)** Go back to your POST request then click send. The results from your request should now populate.
 
-> Note: To avoid errors, remember to set your parameters to that they have a source like an environment variable or data file.
+> <mark>Note:</mark> To avoid errors, remember to set your parameters to that they have a source like an environment variable or data file.
 
 ![Errors](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/working-requets-8.png)
 
