@@ -50,17 +50,12 @@ Collections in Postman are a compiled series of requests within a specific envir
 
 **Step 8)** Click ‘Run Testing’.
 
-![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-9.png)
-
-
-
-
 **Congratulations**, you just ran your first collection! Your run results should be generated on a new window and look like the below.
 
-![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-10.png)
+![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-10.png)
 
 Run Summary Report
 
-![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-11.png)
+![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-11.png)
 
 Now that you have built your first collection, you will be able to test mulitiple requests. You can also create different sets of collections to test within the same or different environment. There is a summary report that will show the number of iterations, as well as what has passed and failed.
