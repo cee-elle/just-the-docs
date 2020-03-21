@@ -54,3 +54,6 @@ Ensure that your variables in either or both your global or environmental settin
 ### Incorrect protocol
 
 If you are running to protocol errors, recheck if your urls are starting with "https://" instead of "http://" or the other way around.
+
+
+If you would like to see more of the ones highlighted here, please refer to[Troubleshooting API requests.] (https://learning.postman.com/docs/postman/sending-api-requests/troubleshooting-api-requests/)
