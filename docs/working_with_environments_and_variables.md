@@ -30,7 +30,7 @@ Let’s start building your first environment!
 
 **Step 5)** Click add to go on to the next screen and the blank form should appear.
 
-> Note: Click on the breadcrumbs to delete or remove the environment list.
+> <mark>Note:</mark> Click on the breadcrumbs to delete or remove the environment list.
 
 **Step 6)** Name this environment ‘Stage’ and complete the row as ‘page’ for variable and ‘2’ for the initial and current value.
 
@@ -38,7 +38,7 @@ Let’s start building your first environment!
 
 **Step 7)** Change the 2 of the url to a new endpoint called <font color="maroon">{page}</font>. Notice how the previous key value has now changed to page and <font color="maroon">{page}</font>. If you hover over the endpoint variable, an error will appear.
 
-> Note: An error was caused because in this environment there is no numbered value given for this variable, therefore the request is not valid. The page requires a variable.
+> <mark>Note:</mark> An error was caused because in this environment there is no numbered value given for this variable, therefore the request is not valid. The page requires a variable.
 
 ![KeyValue](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/enviro-C.png)
 
@@ -48,11 +48,11 @@ Let’s start building your first environment!
 
 **Step 9)** Hover of the endpoint again and now it should be green and present the a number value. 
 
-> Note: The error has now resolved as a variable has been set.
+> <mark>Note:</mark> The error has now resolved as a variable has been set.
 
 ![KeyValue](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/enviro-E.png)
 
-> Note: If you click on the eye icon, you can see the same details.
+> <mark>Note:</mark> If you click on the eye icon, you can see the same details.
 
 ![KeyValue](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/enviro-F.png)
 
