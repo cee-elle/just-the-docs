@@ -58,4 +58,4 @@ Collections in Postman are a compiled series of requests within a specific envir
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-11.png)
 
-Now that you have built your first collection, you will be able to test multiple requests. You can also create different sets of collections to test within the same or different environment. There is a summary report that will show the number of iterations, as well as what has passed and failed.
+Now that you have built your first collection, you will be able to run multiple requests to test. 
