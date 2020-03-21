@@ -36,7 +36,7 @@ Let's create some basic tests for our parameterized requests from the “Working
 
 **Step 5)** Click send. There should now be two passed test results for your request.
 
-> Note: Different kinds of tests can be created in Postman. Explore the tool and see which tests fit your needs.
+> <mark>Note:</mark> Different kinds of tests can be created in Postman. Explore the tool and see which tests fit your needs.
 
 ![Send Test](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/testing2.png)
 
