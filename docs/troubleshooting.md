@@ -33,8 +33,10 @@ Request timeout: Change request timeout in Settings > General
 
 In order to fix this, you will have to go to your settings tab and turn off the “SSL certificate verification” tab.
 
+
 ### Archived Files
 If you would like access to your archived files, you may go to “https://go.postman.co/usage/archive” where you will receive a JSON file. Another option is to export it from your application. 
+
 
 #### How to export and import your archived files:
 **Step 1)** Create a new Workspace to import the restored Collections
@@ -43,9 +45,11 @@ If you would like access to your archived files, you may go to “https://go.pos
 
 **Step 3)** Go to Settings again and this time choose the file to open this time.
 
+
 ### Incorrect URLs or Undefined Variables
 
 Ensure that your variables in either or both your global or environmental settings are defined with values. Request variable errors may return a 404 Bad Request  or incorrect server address.
+
 
 ### Incorrect protocol
 
