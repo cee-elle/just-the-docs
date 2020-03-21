@@ -8,7 +8,7 @@ nav_order: 5
 ---
 Collections in Postman are a compiled series of requests within a specific environment. This tool is most useful for API testing. It is also a group of requests saved in one folder and made to execute one after another. The requests can be GET, POST, PUT, or DELETE.
 
-> Note: We will be using https://reqres.in as the sample REST API. There are many types of fake requests you may use to run the sample collection.
+> <mark>Note:</mark> We will be using https://reqres.in as the sample REST API. There are many types of fake requests you may use to run the sample collection.
 
 ![Runner](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/postman-collections-3.png)
 
