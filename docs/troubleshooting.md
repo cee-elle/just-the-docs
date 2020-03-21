@@ -38,7 +38,9 @@ If you would like access to your archived files, you may go to “https://go.pos
 
 #### How to export and import your archived files:
 **Step 1)** Create a new Workspace to import the restored Collections
+
 **Step 2)** Go to Settings tab or click on the wrench at the top right corner and under Data, click to download the file.
+
 **Step 3)** Go to Settings again and this time choose the file to open this time.
 
 ### Incorrect URLs or Undefined Variables
