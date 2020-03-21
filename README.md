@@ -3,7 +3,7 @@
 <p align="center">
     <h1 align="center">Postman Documentation</h1>
     <p align="center"><i>This Postman guide was written by developers, for developers.</i></p>
-    <p align="center">By: Cindy | Jeffrey</p>
+    <p align="center">By: Cindy Le| Jeffrey Lau</p>
     <p align="center"><strong><a href="https://cee-elle.github.io/postman-documentation/">Start Reading Documentation</a></strong></p>
     <br><br><br>
 </p>
@@ -15,20 +15,20 @@
 
 ## Installation
 
-> Step 1: Go to the [Postman](https://www.getpostman.com) website
+> Step 1: Go to the [Postman](https://www.getpostman.com) website.
 
 > Step 2: Create a Postman account:
 >
-> 1. Click Sign In button at top of the navigation bar
-> 2. Click the Create Account option
+> 1. Click Sign In button at top of the navigation bar.
+> 2. Click the Create Account option.
 
-> Step 3: Click Download on the homepage
+> Step 3: Click Download on the homepage.
 
-> Step 4: Run the installer appropriate to your platform
+> Step 4: Run the installer appropriate to your platform.
 
 > Step 5: Set up your workspace by selecting the tools you need:
 >
-> 1. Click Save My Preferences, a Startup Screen will appear
+> 1. Click Save My Preferences, and a Startup Screen will appear.
 
 ## Usage
 
