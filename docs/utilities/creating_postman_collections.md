@@ -12,15 +12,15 @@ Collections in Postman are a compiled series of requests within a specific envir
 
 **Step 1)** Create a new collection folder called ‘Testing’ by clicking the top left orange ‘+’ button and save.
 
-<img src ="https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-1.png" width=80% alt="testing">
+![](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-1.png")
 
 **Step 2)** Create a new request called ‘GET userList.
 
-<img src ="https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-2.png" width=50% alt="runner">
+![](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-2.png")
 
 1. Save it in your collections named ‘Testing’
 
-<img src ="https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-3.png" width=50% alt="runner">
+![]("https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-3.png")
 
 **Step 3)** Add the request from reqres.in to the end of the url and click send. You should see a code 200 OK.
 
@@ -30,20 +30,20 @@ Collections in Postman are a compiled series of requests within a specific envir
 
 **Step 5)** Click on the breadcrumbs on the left-side panel in the **Testing** tab to add a folder.
 
-<img src ="https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-5.png" width=30% alt="runner">
+![]("https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-5.png")
 
 1. Name the new sub-folder called ‘GET’.
 
-<img src ="https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-6.png" width=60% alt="runner">
+![]("https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-6.png")
 
 2. Place the two previously created GET requests into that new folder.
 
-<img src ="https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-7.png" width=40% alt="runner">
+![]("https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-7.png")
 
 
 **Step 6)** Click on the arrow button above the bread crumbs and a new sub-window will appear to the right.
 
-<img src ="https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-8.png" width=60% alt="runner">
+![]("https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/collections-8.png")
 
 **Step 7)** Click the blue ‘Run’ button and a new window appears called “Collection Runner”. Here you can run the test as many times as you want. We will run this collection twice. To do this, you will have to change the iterations to 2. 
 
