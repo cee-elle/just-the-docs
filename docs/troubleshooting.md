@@ -14,7 +14,7 @@ If you see the window appear when trying to load up the application, please dele
 
 ![troubleshoot](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/troubleshoot-1.png)
 
-> <mark>Note:</mark> By deleting your local files, all local saved files will be permanently deleted. If you have a Postman account, ensure your account is actively synced when logging into the web application.
+> <mark>Note:</mark> By deleting your local files, all local saved files will be permanently deleted. If you have a Postman account, make sure your account is actively synced when logging into the web application version.
 
 ```
 “Could not get any response” Error
@@ -48,7 +48,7 @@ If you would like access to your archived files, you may go to “https://go.pos
 
 ### Incorrect URLs or Undefined Variables
 
-Ensure that your variables in either or both your global or environmental settings are defined with values. Request variable errors may return a 404 Bad Request  or incorrect server address.
+Ensure your variables in either or both your global or environmental settings have defined values. Request variable errors may return a 404 Bad Request or incorrect server address.
 
 
 ### Incorrect protocol
