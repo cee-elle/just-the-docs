@@ -20,7 +20,7 @@ Let's create some basic tests for our parameterized requests from the “Working
 ![Send Test](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/testing1.png)
 
 **Step 3)** Go back to the test tab and let's add another test. 
-1. This time we will compare the expected result to the actual result. 
+1. This time compare the expected result to the actual result. 
 
 > Reminder to change your request to GET and your previously entered information from Step 4 in “Working with Requests” still exists in the Body tab.
 
@@ -40,4 +40,4 @@ Let's create some basic tests for our parameterized requests from the “Working
 
 ![Send Test](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/testing2.png)
 
-**Great job!** You have come along way from understanding and creating your first request to now testing them in Postman! How does it feel? 
+**Great job!** You have come a long way from understanding and creating your first request to now testing them in Postman! How does it feel? 
