@@ -6,7 +6,7 @@ nav_order: 99
 
 # Glossary
 ---
-This is the glossary of terms we will be using in this guide.
+Here is the glossary of terms found in this guide.
 <br>
 
 **CRUD** - CRUD refers to Create, Read, Update, Delete which are four basic functions used in persistent storage.
