@@ -7,9 +7,9 @@ nav_order: 2
 
 # Composing Requests
 ---
-One of Postman's primary purposes is allowing us to craft requests to the APIs we use. This section will guide you to making your first request with Postman! In order to make a request of the API, start by:
+One of Postman's primary purposes is allowing us to craft requests to the APIs developers use. This section will guide you to making your first request with Postman! In order to make a request of the API, start by:
 
-> <mark>Note:</mark> We will be using content from [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) to simulate a JSON file.
+> <mark>Note:</mark> In the example below, you will be using content from [https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users) to simulate a JSON file.
 
 <br>
 
