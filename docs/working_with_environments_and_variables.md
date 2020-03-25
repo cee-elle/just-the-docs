@@ -13,7 +13,7 @@ A variable can be used as a reference tool and be defined with a specific value 
 ### Understanding Environments 
 An environment allows for collections and requests to be run against different data sets. You can have different environments meant for testing, development, and production that will need different data sets to be passed. In this application, environments are made up of key-value pairs of variables, and each variable represents its key. You may access it by referencing the variable. Let’s get started by creating your first environment.
 
-For the example below, we will be taking sampel data from this website: https://reqres.in. On the site, there are a list of fake GET, POST, PUT, DELETE requests that can be made. The second column shows how to mock your request, and the third column details the response code and result.
+For the example below, you will be taking samplee data from this website: https://reqres.in. On the site, there are a list of fake GET, POST, PUT, DELETE requests that can be made. The second column shows how to mock your request, and the third column details the response code and result.
 
 
 Let’s start building your first environment!
@@ -22,7 +22,9 @@ Let’s start building your first environment!
 
 **Step 2)** Submit both GET requests to ensure you are receiving a status 200.
  
-**Step 3)** Under Params, enter a key and value pair. The key being page and value is 2. The key is a variable placement holder and the value gives it a replacement value.
+**Step 3)** Under Params, enter a key and value pair. The key is page and value is 2. 
+
+> <mark>Note:</mark> The key is a variable placement holder and the value gives it a defined value.
 
 ![KeyValue](https://raw.githubusercontent.com/cee-elle/postman-documentation/gh-pages/docs/raw/enviro-A.png)
 
@@ -84,4 +86,4 @@ Let’s start building your first environment!
 
 **Congratulations**, you have now created not only one environment, but two!
 
-Now that you have created some environments, you can run same collections in different environments to verify your reslts. Each environment should present different values in order to test your requests. You should have some basic understandings how global and environment variables are used.
+Now that you have created some environments, you can run same collections in different environments to verify your reslts. Each environment should have different values in order to properly test your requests. You should now have some understandings of how global and environment variables work in Postman.
